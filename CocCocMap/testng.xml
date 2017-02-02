@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CocCoc Map Smoke">
+	<test verbose="2" name="CocCoc Map Smoke">
+		<groups>
+			<run>
+				<!-- exclude name="execute" /-->
+				<exclude name="pending" />
+			</run>
+		</groups>
+		<classes>
+      		<class name="coccocmap.testsuite.coccocmap_smoke_bookmark"/>
+			<class name="coccocmap.testsuite.coccocmap_smoke_category"/>
+			<class name="coccocmap.testsuite.coccocmap_smoke_history"/>
+		</classes>
+	</test> 
+</suite>
